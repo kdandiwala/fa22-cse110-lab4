@@ -1,0 +1,2 @@
+1. The bug was that the types of `num1` and `num2` were strings so when they were added together, `result` ended up being the operands concenated into another string.
+2. To fix this bug, I would convert the types of `num1` and `num2` into an integer before they are added together using the `parseInt()` function. 
